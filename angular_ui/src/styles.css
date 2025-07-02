@@ -1,5 +1,18 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
 
+/* Override Bootstrap form-floating styles to fix selector warning */
+.form-floating label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  padding: 1rem 0.75rem;
+  pointer-events: none;
+  border: 1px solid transparent;
+  transform-origin: 0 0;
+  transition: opacity .1s ease-in-out,transform .1s ease-in-out;
+}
+
 body {
   font-family: 'Arial', sans-serif;
   background-color: #f8f9fa;
