@@ -27,7 +27,7 @@ render-utils.server.mjs | render-utils.server | 423 bytes |
 Lazy chunk files        | Names               |  Raw size
 chunk-P3UOPGAK.mjs      | xhr2                |  39.09 kB | 
 
-Application bundle generation complete. [5.761 seconds]
+Application bundle generation complete. [6.495 seconds]
 
 Watch mode enabled. Watching for file changes...
   ➜  Local:   http://localhost:3000/
